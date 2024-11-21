@@ -1,0 +1,90 @@
+html,body{margin: 0; padding: 0;}
+*{box-sizing: border-box;}
+
+.product{display: flex;flex-wrap: wrap;margin: 50px;}
+
+.image{width: 650px;height: 650px;}
+
+.image img{width: 100%;height: 100%;border-radius: 20px;margin-left: 30px;}
+
+.small-img{display: flex;flex-direction: column;}
+
+.small-img img{width: 50px;margin: 5px;border-radius: 10px;}
+
+.thumbnail{border: solid 1px black;}
+
+.explain{margin-left: 100px;}
+
+.explain h1{font-size: 30px;color: #0F4C36;}
+
+.explain p{margin: 0;}
+
+.price p{font-size: 34px;color: #0F4C36;font-weight: bold;}
+
+.price pre{font-size: 10px;color: white;background: #0F4C36;border-radius: 10px;margin-left: 10px;padding: 10px;font-weight: 400;margin-top: 10px;}
+
+.discount{font-size: 20px;color: rgb(174, 167, 167);text-decoration:line-through;font-weight: bold;margin-left: 10px;padding-top: 10px;}
+
+.price{display: flex;flex-wrap: wrap;}
+
+.explain h2{font-size: 15px;margin-top: 20px; font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+.size {display: flex;flex-wrap: wrap;}
+
+.size button{border-radius: 10px;padding: 10px;}
+
+.small{background-color: #0F4C36;color: white;}
+
+.medium{background-color: white;color: #0F4C36;}
+
+.circle{border: solid 1px black;}
+
+.facility{margin-top: 50px;display: flex;width: 100%;}
+
+.single-facility p{margin: 5px 0px;}
+
+.single-facility{text-align: center;}
+
+.space{margin-right: 120px;}
+.pincode{border: 1px solid black;}
+.enter{width: 450px;padding: 5px 5px;border: none;}
+
+.enter:focus{outline: none;}
+
+.check{width: 80px;padding: 5px 0px;background-color: #0F4C36;color: white;border: none;}
+
+.offer p{font-size: 20px;color: white;background-color: #FED02F;padding: 5px;border-radius: 10px;padding-left: 10px;}
+
+.offer{margin: 20px 0px;}
+
+.placed{margin-top: 50px;}
+
+.placed button{width: 260px;}
+
+.cart{border-radius: 20px;color: white;background-color: #0F4C36;padding: 10px;margin-right: 10px;}
+
+.buy{border-radius: 20px;color: #0F4C36;background-color: #ffffff;padding: 10px;}
+
+.cart:hover{background-color: #FED02F;transition: all 0.5s ease;}
+
+.care h1{font-size: 35px;color:#0F4C36;}
+
+.care p{font-size: 18px;}
+
+.care{text-align: center;padding: 10px 200px;}
+
+.measure{display: flex;flex-wrap: wrap;justify-content: center;margin-top: 50px;}
+
+.guide{margin-top: 50px;padding: 20px;color: #0F4C36;background-color: #FED02F;border-radius: 10px;border: none;font-weight: bold;}
+
+.instruction{font-weight: bold;}
+
+.single-measure p{margin: 0;padding-top: 10px;color: #424242;}
+
+.customers h1{font-size: 35px;color:#0F4C36;text-align: center;margin-top: 20px;}
+
+.boxes{margin-top: 50px;}
+
+.g{margin-top: 200px;}
